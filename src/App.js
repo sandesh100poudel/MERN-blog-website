@@ -1,7 +1,8 @@
 import Topbar from "./components/topbar/Topbar";
+import Setting from "./pages/settings/Setting";
 // import Home from "./pages/home/Home";
 // import Single from "./pages/single/Single";
-import Write from "./pages/write/Write";
+// import Write from "./pages/write/Write";
 
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
     <div className="App">
      
      <Topbar /> 
-    <Write />
+    <Setting />
      
     </div>
   );
